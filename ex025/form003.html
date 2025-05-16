@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+     <form action="cadastro.PHP" method="get">
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome" required maxlength="40" placeholder="Nome completo">
+        </p>
+        <p>
+            <label for="imedia">Média: </label>
+            <input type="number" name="mrdia" id="imedia" required min="0" max="10" placeholder="0 a 10" step="0.5">
+        </p>
+        <p>
+            <label for="idia">Dia da Prova: </label>
+            <input type="month" name="Dia" id="idia" value="2025-07">
+        </p>
+        <p>
+            <label for="imes">Dia do mês: </label>
+            <input type="date" name="mes" id="imes">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Limpar">
+        </p>
+     </form>
+</body>
+</html>
