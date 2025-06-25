@@ -17,7 +17,13 @@ header, section.normal{
     padding: 20px;
 }
 
-p, h1, h2{
+h1, h2{
+    margin-bottom: 20px;
+    line-height: 1.3em;
+
+}
+
+p{
     margin-bottom: 10px;
     text-align: justify;
 }
@@ -47,16 +53,25 @@ article.media-text{
 article > div.text{
     flex: 1 1 400px;
 
-    border: 1px dashed blue;
+    
 }
 
 article > div.media{
     flex: 1 0 400px;
 
-    border: 1px dashed red;
+  
 }
 
 div.media > img{
     display: block;
+    margin: auto;
+    width: 380px;
+    padding: 10px;
     
+}
+
+div.media > iframe{
+    display: block;
+    margin: auto;
+    width: 90%;
 }
